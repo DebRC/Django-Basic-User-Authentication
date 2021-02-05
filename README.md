@@ -16,3 +16,31 @@ Basic User Authentication app (Login/Sign in and Register/Sign up) implemented u
 | Logout | Register |
 | ---------------|------------------|
 | <img src="./Demo/Logout.png" width="500"> | <img src="./Demo/Register.png" width="500"> |
+
+## Installing
+### Clone the project
+
+```
+git clone https://github.com/DebRC/Django-Basic-User-Authentication.git
+cd Django-Basic-User-Authentication-master
+```
+
+### Install dependencies & activate virtualenv
+
+```
+pip install virtualenv
+virtualenv env
+. env/Scripts/activate
+```
+
+### Run server
+```
+cd basic_sign
+python manage.py runserver
+```
+
+### Admin Login
+```
+Username: admin
+Password: 12345
+```
