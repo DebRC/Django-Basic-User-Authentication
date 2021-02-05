@@ -9,12 +9,10 @@ Basic User Authentication app (Login/Sign in and Register/Sign up) implemented u
 </ul>
 
 ## Screenshots
-#### Home Page
-![Farmers Market Finder Demo](Demo/Homepage.png)
-#### Login Page
-![Farmers Market Finder Demo](Demo/Login.png)
-#### Logout Page
-![Farmers Market Finder Demo](Demo/Logout.png)
-#### Register Page
-![Farmers Market Finder Demo](Demo/Register.png)
-![Farmers Market Finder Demo](Demo/Register2.png)
+| Homepage | Login |
+| -------|--------------|
+| <img src="./Demo/Homepage.png" width="500"> | <img src="./Demo/Login.png" width="500"> |
+
+| Logout | Register |
+| ---------------|------------------|
+| <img src="./Demo/Logout.png" width="500"> | <img src="./Demo/Register.png" width="500"> |
