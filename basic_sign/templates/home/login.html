@@ -5,6 +5,7 @@
 <div class="container-fluid homepage-box">
     <h2>Please Login</h2>
     <h3>{{ login_alert }}</h3> 
+    <h3>{{ register_alert }}</h3>
     <form action="{% url 'home:user_login' %}" method="POST">
         {% csrf_token %}
         <label for="username">Username: </label>

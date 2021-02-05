@@ -39,16 +39,23 @@ def register(request):
             profile.save()
 
             registered=True
-        else:
-            print(user_form.error, profile_form.errors)
-    else:
-        user_form = UserForm()
-        profile_form = UserProfileInfoForm()
 
-    return render(request, 'home/registration.html', 
+            return render(request, 'home/registration.html', 
                             {'user_form':user_form,
                             'profile_form': profile_form,
                             'registered':registered})
+        else:
+            my_dict = {'register_alert':"User Already Registered"}
+            return render(request,'home/login.html',context=my_dict)
+    else:
+        user_form = UserForm()
+        profile_form = UserProfileInfoForm()
+        return render(request, 'home/registration.html', 
+                            {'user_form':user_form,
+                            'profile_form': profile_form,
+                            'registered':registered})
+
+    
 
 def user_login(request):
     if request.method == "POST":
