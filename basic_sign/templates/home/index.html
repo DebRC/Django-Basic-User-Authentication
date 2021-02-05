@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% extends "home/base.html" %}
+{% block body_block %}
+
+<div class="container-fluid homepage-box">
+    <h2>Django Basic User<br> Authentication App</h2>
+    {% if user.is_authenticated %}
+        <h3>You are successfully logged in!</h3>
+        <a href="{% url 'logout' %}"><button type="button" class="btn btn-outline-info">Logout</button></a>
+    {% else %}
+        <a href="{% url 'home:register' %}"><button type="button" class="btn btn-outline-info btn-lg">Register</button></a>
+        <a href="{% url 'home:user_login' %}"><button type="button" class="btn btn-outline-info btn-lg">Login</button></a>
+    {% endif %}
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,30 @@
+h2{
+    color:darkslateblue;
+    background-color: #68b0e4;
+    margin: 0;
+    font-size: 1.6rem;
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+h3{
+    font-size: 1.2rem;
+    color:dimgray;
+    margin-bottom: 1rem;
+}
+.homepage-box{
+    width: 30%;
+    height: auto;
+    margin-top: 8rem;
+    text-align: center;
+    border: 4px ridge #68b0e4;
+    padding: 0;
+}
+
+form{
+    text-align: center;
+}
+
+.btn{
+    margin: 0.3rem;
+    margin-bottom: 3rem;
+}
