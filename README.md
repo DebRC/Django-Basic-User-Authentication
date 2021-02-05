@@ -31,6 +31,7 @@ cd Django-Basic-User-Authentication-master
 pip install virtualenv
 virtualenv env
 . env/Scripts/activate
+pip install requirements
 ```
 
 ### Run server
